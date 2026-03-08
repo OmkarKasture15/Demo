@@ -4,7 +4,10 @@ public class Test {
 	 
 	public static void main(String[] args) throws CloneNotSupportedException {
 		Employee e1=new Employee("john", 1000);
-		System.out.println(e1);		
+		System.out.println(e1);	
+
+		
+			
 		Employee e2= e1.clone();		//hashcode is different of clones & it is a Shallow clowning
 		System.out.println(e2);
 		
